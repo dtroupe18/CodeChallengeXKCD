@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		5507AFB121FF707E001DA7D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507AFB021FF707E001DA7D4 /* AppDelegate.swift */; };
-		5507AFB321FF707E001DA7D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507AFB221FF707E001DA7D4 /* ViewController.swift */; };
-		5507AFB621FF707E001DA7D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5507AFB421FF707E001DA7D4 /* Main.storyboard */; };
 		5507AFB821FF7080001DA7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5507AFB721FF7080001DA7D4 /* Assets.xcassets */; };
 		5507AFBB21FF7080001DA7D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5507AFB921FF7080001DA7D4 /* LaunchScreen.storyboard */; };
+		5507AFC321FF8FBC001DA7D4 /* ComicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507AFC221FF8FBC001DA7D4 /* ComicsViewController.swift */; };
+		5507AFC621FF9083001DA7D4 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507AFC521FF9083001DA7D4 /* RequestManager.swift */; };
+		5507AFC921FF93B8001DA7D4 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507AFC821FF93B8001DA7D4 /* Comic.swift */; };
+		5507AFCC21FFB4F9001DA7D4 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507AFCB21FFB4F9001DA7D4 /* CommentsViewModel.swift */; };
+		5507AFCF2200ADA1001DA7D4 /* ComicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507AFCE2200ADA1001DA7D4 /* ComicCell.swift */; };
+		5507AFD22200F0AE001DA7D4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507AFD12200F0AE001DA7D4 /* UIColor+Extension.swift */; };
+		7969C16F120A5FBBF074A2A8 /* Pods_iOS_xkcd_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFC893255B46B2CCEF34CDD /* Pods_iOS_xkcd_Challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15EFC873B460540BDC4C70ED /* Pods-iOS xkcd Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS xkcd Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS xkcd Challenge/Pods-iOS xkcd Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		198218060E741162B461A8E2 /* Pods-iOS xkcd Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS xkcd Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS xkcd Challenge/Pods-iOS xkcd Challenge.release.xcconfig"; sourceTree = "<group>"; };
 		5507AFAD21FF707E001DA7D4 /* iOS xkcd Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS xkcd Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5507AFB021FF707E001DA7D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5507AFB221FF707E001DA7D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5507AFB521FF707E001DA7D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5507AFB721FF7080001DA7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5507AFBA21FF7080001DA7D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5507AFBC21FF7080001DA7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5507AFC221FF8FBC001DA7D4 /* ComicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsViewController.swift; sourceTree = "<group>"; };
+		5507AFC521FF9083001DA7D4 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		5507AFC821FF93B8001DA7D4 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		5507AFCB21FFB4F9001DA7D4 /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		5507AFCE2200ADA1001DA7D4 /* ComicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCell.swift; sourceTree = "<group>"; };
+		5507AFD12200F0AE001DA7D4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		FBFC893255B46B2CCEF34CDD /* Pods_iOS_xkcd_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_xkcd_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7969C16F120A5FBBF074A2A8 /* Pods_iOS_xkcd_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32EF8494D8D73694E92480A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15EFC873B460540BDC4C70ED /* Pods-iOS xkcd Challenge.debug.xcconfig */,
+				198218060E741162B461A8E2 /* Pods-iOS xkcd Challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54EFBBCC4B3130E5703B9DCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC893255B46B2CCEF34CDD /* Pods_iOS_xkcd_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5507AFA421FF707E001DA7D4 = {
 			isa = PBXGroup;
 			children = (
 				5507AFAF21FF707E001DA7D4 /* iOS xkcd Challenge */,
 				5507AFAE21FF707E001DA7D4 /* Products */,
+				32EF8494D8D73694E92480A2 /* Pods */,
+				54EFBBCC4B3130E5703B9DCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,58 @@
 		5507AFAF21FF707E001DA7D4 /* iOS xkcd Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				5507AFD02200F096001DA7D4 /* Extensions */,
+				5507AFCD2200AD81001DA7D4 /* Cell */,
+				5507AFCA21FFB4CB001DA7D4 /* ViewController */,
+				5507AFC721FF93AA001DA7D4 /* DataModels */,
+				5507AFC421FF9058001DA7D4 /* API */,
 				5507AFB021FF707E001DA7D4 /* AppDelegate.swift */,
-				5507AFB221FF707E001DA7D4 /* ViewController.swift */,
-				5507AFB421FF707E001DA7D4 /* Main.storyboard */,
 				5507AFB721FF7080001DA7D4 /* Assets.xcassets */,
 				5507AFB921FF7080001DA7D4 /* LaunchScreen.storyboard */,
 				5507AFBC21FF7080001DA7D4 /* Info.plist */,
 			);
 			path = "iOS xkcd Challenge";
+			sourceTree = "<group>";
+		};
+		5507AFC421FF9058001DA7D4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5507AFC521FF9083001DA7D4 /* RequestManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5507AFC721FF93AA001DA7D4 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				5507AFC821FF93B8001DA7D4 /* Comic.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		5507AFCA21FFB4CB001DA7D4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5507AFC221FF8FBC001DA7D4 /* ComicsViewController.swift */,
+				5507AFCB21FFB4F9001DA7D4 /* CommentsViewModel.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5507AFCD2200AD81001DA7D4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5507AFCE2200ADA1001DA7D4 /* ComicCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5507AFD02200F096001DA7D4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5507AFD12200F0AE001DA7D4 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5507AFBF21FF7080001DA7D4 /* Build configuration list for PBXNativeTarget "iOS xkcd Challenge" */;
 			buildPhases = (
+				96C17068C5AA99603561B86E /* [CP] Check Pods Manifest.lock */,
 				5507AFA921FF707E001DA7D4 /* Sources */,
 				5507AFAA21FF707E001DA7D4 /* Frameworks */,
 				5507AFAB21FF707E001DA7D4 /* Resources */,
+				DAC2F3C16555D7792B7D47E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +202,71 @@
 			files = (
 				5507AFBB21FF7080001DA7D4 /* LaunchScreen.storyboard in Resources */,
 				5507AFB821FF7080001DA7D4 /* Assets.xcassets in Resources */,
-				5507AFB621FF707E001DA7D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96C17068C5AA99603561B86E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS xkcd Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC2F3C16555D7792B7D47E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS xkcd Challenge/Pods-iOS xkcd Challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Anchorage/Anchorage.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Anchorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS xkcd Challenge/Pods-iOS xkcd Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5507AFA921FF707E001DA7D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5507AFB321FF707E001DA7D4 /* ViewController.swift in Sources */,
+				5507AFD22200F0AE001DA7D4 /* UIColor+Extension.swift in Sources */,
+				5507AFCC21FFB4F9001DA7D4 /* CommentsViewModel.swift in Sources */,
+				5507AFC621FF9083001DA7D4 /* RequestManager.swift in Sources */,
+				5507AFC921FF93B8001DA7D4 /* Comic.swift in Sources */,
+				5507AFCF2200ADA1001DA7D4 /* ComicCell.swift in Sources */,
+				5507AFC321FF8FBC001DA7D4 /* ComicsViewController.swift in Sources */,
 				5507AFB121FF707E001DA7D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +274,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5507AFB421FF707E001DA7D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5507AFB521FF707E001DA7D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5507AFB921FF7080001DA7D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +403,7 @@
 		};
 		5507AFC021FF7080001DA7D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EFC873B460540BDC4C70ED /* Pods-iOS xkcd Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +422,7 @@
 		};
 		5507AFC121FF7080001DA7D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198218060E741162B461A8E2 /* Pods-iOS xkcd Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
